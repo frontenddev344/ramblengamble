@@ -1,0 +1,481 @@
+/*media queries start*/
+@media screen and (max-width: 1199px) {
+
+    .container {
+        padding: 0 20px;
+    }
+
+    .site-logo img {
+        max-width: 180px;
+    }
+
+    .site-nav a {
+        padding: 8px 8px !important;
+        display: inline-block;
+    }
+
+    .site-nav li {
+        font-size: 16px;
+    }
+
+    .link__content p {
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .site-nav a {
+        display: inline-block;
+        padding: 8px 9px;
+    }
+
+    .useful-links ul {
+        gap: 11px;
+    }
+
+    .contact-us a {
+        font-size: 15px;
+    }
+
+    .site-nav li {
+        font-size: 15px;
+    }
+
+    .slovernia__pictures.overlay {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        margin: 0;
+    }
+
+    .link__content h3 {
+        color: #74c43d;
+        font-size: 26px;
+        margin-bottom: 19px;
+    }
+
+    .link__mains {
+        text-align: justify;
+    }
+
+    .links__mains {
+        text-align: justify;
+    }
+}
+
+@media screen and (max-width: 991px) {
+
+    /*header start*/
+    .site-nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 300px;
+        background: #000000;
+        transition: 0.4s cubic-bezier(0, 0, 0.13, 0.61);
+        transform: translateX(-100%);
+    }
+
+    .site-nav ul {
+        display: block;
+        padding: 75px 60px 0;
+        display: inline-block !important;
+    }
+
+    .menu-toggle {
+        display: block !important;
+        cursor: pointer;
+    }
+
+    .closed-menu {
+        font-size: 40px;
+        color: #ffffff;
+        position: absolute;
+        top: -5px;
+        right: 15px;
+        display: inline-block;
+    }
+
+    .closed-menu a:hover {
+        color: #000000;
+    }
+
+    .closed-menu {
+        display: block;
+    }
+
+    .toggle .site-nav {
+        transform: translateX(0);
+    }
+
+    .closed-menu {
+        display: block;
+    }
+
+    .site-header {
+        padding: 20px 0;
+        background-color: transparent;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        z-index: 9999999;
+        transition: all 0.5s linear;
+    }
+
+    .site-header .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .site-logo img {
+        max-width: 20rem;
+    }
+
+    .site-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .site-nav li a {
+        font-size: 17px;
+        display: inline-block;
+        padding: 0.8rem 2rem;
+        text-transform: capitalize;
+        color: #ffffff;
+        position: relative;
+        white-space: nowrap;
+        font-family: "Poppins";
+
+    }
+
+    .site-nav li a:hover::after {
+        width: 100%;
+        transition: all 0.3s linear;
+    }
+
+    .menu-toggle .bar-1,
+    .bar-2,
+    .bar-3 {
+        width: 2.5rem;
+        height: 2px;
+        background-color: #ffffff;
+        margin: 0.6rem 0;
+        transition: all 0.3s linear;
+        display: block;
+    }
+
+    ul.dropdown-content {
+        position: absolute;
+        width: 250px;
+        background: transparent;
+        top: 100%;
+        left: 0;
+        background: #ffffff;
+        display: none;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    // header.site-header.sticky .menu-toggle .bar-1,
+    // header.site-header.sticky .menu-toggle .bar-2,
+    // header.site-header.sticky .menu-toggle .bar-3 {
+    //     background-color: #ffffff;
+    // }
+
+    .menu-toggle .bar-1,
+    .bar-2,
+    .bar-3 {
+        width: 40px;
+        height: 2px;
+        background-color: #000000;
+        margin: 0.6rem 0;
+        transition: all 0.3s linear;
+        display: block;
+    }
+
+    .bar-2 {
+        width: 30px;
+    }
+
+    .bd-header-top__meta {
+        span {
+            display: block;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 32px;
+            font-weight: 400;
+        }
+
+        a {
+            display: block;
+            color: #ffffff;
+            font-size: 16px;
+            line-height: 32px;
+            font-weight: 600;
+            opacity: 0.7;
+        }
+    }
+
+    .linked__main h4 {
+        font-size: 23px;
+        color: #6cc133;
+        font-family: "Barlow";
+    }
+
+    .destination__content .row.igralnice a.btn.btn-content {
+        white-space: nowrap;
+    }
+
+    .contact__text h2 {
+        white-space: nowrap;
+    }
+
+    .linkpart__section {
+        padding: 10px 0 50px 0;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .gambler__banner {
+        height: 450px;
+    }
+
+    .north__banner {
+        height: 450px;
+        background-position: right;
+    }
+
+    .europe__banner {
+        height: 450px;
+    }
+
+    .asia__banner {
+        height: 450px;
+    }
+
+    .terms-banner {
+        height: 450px;
+    }
+
+    .terms-banner.contact {
+        height: 450px;
+    }
+
+    .terms-banner.privacy {
+        height: 450px;
+    }
+
+    .linked__picture {
+        height: 100%;
+
+        img {
+            height: 100%;
+        }
+    }
+
+    .linked__main {
+        h3 {
+            font-size: 27px;
+            color: #000000;
+        }
+
+        h4 {
+            font-size: 17px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+
+    .useful-links li a {
+        font-size: 12px;
+    }
+
+    .contact-us {
+        align-items: start;
+    }
+
+    .destination-card.page h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .destination__content {
+        padding: 10px 0 50px 0px;
+    }
+
+    .destination-card p {
+        line-height: 22px;
+    }
+
+    .destination__content .row.igralnice a.btn.btn-content {
+        font-size: 15px;
+        padding: 12px 11px;
+    }
+
+    .link__content {
+        h3 {
+            font-size: 19px;
+            margin-bottom: 19px;
+        }
+
+        p {
+            line-height: 23px;
+            font-size: 17px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .linked__main.right {
+        padding: 50px 0 20px 0;
+    }
+
+    .linked__main.left {
+        padding: 50px 0 20px 0;
+    }
+
+    .contact-us {
+        align-items: start;
+    }
+
+    .slovernia__pictures.overlay img {
+        max-width: 100%;
+        height: 100%;
+    }
+
+    .destination-card.page {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 30px 0 0 0;
+    }
+
+    .north__banner h1 {
+        font-size: 45px;
+        white-space: nowrap;
+    }
+
+    .destination-card {
+        padding-left: 0;
+    }
+
+    .link__content {
+        padding: 50px 0;
+    }
+
+    .link__main {
+        padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .site-logo img {
+        max-width: 150px;
+    }
+
+    .site-nav {
+        width: 100%;
+    }
+
+    .site-nav ul {
+        display: block;
+    }
+
+    .useful-links ul {
+        align-items: center;
+        gap: 11px;
+        display: block;
+        text-align: center;
+
+        li a {
+            font-size: 18px;
+        }
+    }
+
+    .social-icons,
+    .links__main {
+        align-items: center;
+        border: none;
+    }
+
+
+    .contact-us {
+        align-items: center;
+    }
+
+    .casino__content p {
+        text-align: justify;
+    }
+
+    .contact__para {
+        text-align: justify;
+    }
+
+    .contact__text {
+        h2 {
+            font-size: 40px;
+        }
+
+    }
+
+    .contacts__links {
+        h3 {
+            font-size: 20px;
+            line-height: 23px;
+        }
+
+        p {
+            text-align: justify;
+        }
+    }
+
+    .terms-banner.contact {
+        background-position: inherit;
+    }
+
+    .linkpart__section {
+        padding: 10px 0 10px 0;
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .casino__bannertext h2 {
+        font-size: 15px;
+    }
+
+    .menu-toggle .bar-1,
+    .bar-2,
+    .bar-3 {
+        width: 24px;
+    }
+
+    .site-mail a {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .contact__text h2 {
+        font-size: 35px;
+    }
+
+    .link__content h3 {
+        font-size: 17px;
+
+    }
+
+}
+
+/*# sourceMappingURL=responsive.css.map */
