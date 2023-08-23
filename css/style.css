@@ -53,6 +53,10 @@ header.site-header {
   font-family: "Barlow";
 }
 
+.site-header .site-nav ul li a.active {
+  color: #6bbf32;
+}
+
 .site-logo img {
   width: 100%;
   max-width: 300px;

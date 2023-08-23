@@ -54,7 +54,9 @@ header.site-header {
     position: relative;
     font-family: "Barlow";
 }
-
+.site-header .site-nav ul li a.active {
+    color: #6bbf32;
+}
 .site-logo img {
     width: 100%;
     max-width: 300px;
@@ -84,9 +86,6 @@ header.site-header {
     display: flex;
     align-items: center;
 }
-
-
-
 .closed-menu {
     display: none;
 }
