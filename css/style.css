@@ -455,13 +455,13 @@ a.link__btn {
 
 .slovernia__pictures.overlay {
   height: 200px;
-  margin: 20px 40px;
+  margin: 20px 20px;
 }
 .slovernia__pictures.overlay img {
   height: 100%;
   object-fit: cover;
   width: 100%;
-  max-width: 250px;
+  max-width: 300px;
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.8);
 }
 
