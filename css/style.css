@@ -332,6 +332,11 @@ a.btn-home {
   font-size: 16px;
   font-family: "Poppins";
 }
+a.btn-home:hover {
+  border: 1px solid #6cc133;
+  background: #fff;
+  color: #6cc133;
+}
 
 .linked__main {
   display: flex;
@@ -439,6 +444,11 @@ a.link__btn {
   font-size: 16px;
   font-family: "Poppins";
 }
+a.link__btn:hover {
+  border: 1px solid #6cc133;
+  background: #fff;
+  color: #6cc133;
+}
 
 /*End linked css*/
 /*Start destination css*/
@@ -508,6 +518,11 @@ a.link__btn {
   padding: 12px 24px;
   box-shadow: #112d2a 8px 7px;
   display: inline-block;
+}
+.destination__content .row.igralnice a.btn.btn-content:hover {
+  color: #6cc133;
+  background: #000;
+  box-shadow: none;
 }
 
 /*End destination css*/
