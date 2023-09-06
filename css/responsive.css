@@ -202,6 +202,9 @@
   .useful-links ul {
     gap: 6px;
   }
+  .useful-links li a {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 768px) {
   .gambler__banner {
@@ -270,9 +273,6 @@
   .link__content p {
     line-height: 23px;
     font-size: 17px;
-  }
-  .useful-links ul {
-    gap: 5px;
   }
 }
 @media screen and (max-width: 767px) {
