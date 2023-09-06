@@ -351,10 +351,6 @@ header.site-header.sticky {
   transition: all 0.3s;
 }
 
-video::-webkit-media-controls {
-  display: none;
-}
-
 video {
   height: 100%;
   width: 100%;
