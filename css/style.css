@@ -319,7 +319,7 @@ header.site-header.sticky {
 }
 
 .gambler__bannertext {
-  z-index: 999;
+  z-index: 998;
 }
 .gambler__bannertext h1 {
   font-size: 60px;
