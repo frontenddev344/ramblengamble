@@ -363,7 +363,10 @@ header.site-header {
 video::-webkit-media-controls {
     display: none;
 }
-
+video {
+    height: 100%;
+    width: 100%;
+}
 a.btn-home {
     background: #6cc133;
     padding: 11px 20px;
