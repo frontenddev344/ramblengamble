@@ -281,7 +281,7 @@ header.site-header.sticky {
 }
 
 .asia__banner {
-  background-image: url(../images/bannerasia.jpeg);
+  background-image: url(../images/bannerasia.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -290,6 +290,22 @@ header.site-header.sticky {
   position: relative;
 }
 .asia__banner::after {
+  position: absolute;
+  content: "";
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4588235294);
+}
+
+.ocenia__banner.asia {
+  background-image: url(../images/oceaniabanner.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 450px;
+  object-fit: cover;
+  position: relative;
+}
+.ocenia__banner.asia::after {
   position: absolute;
   content: "";
   inset: 0;

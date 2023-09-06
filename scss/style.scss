@@ -310,7 +310,7 @@ header.site-header.sticky {
 }
 
 .asia__banner {
-    background-image: url(../images/bannerasia.jpeg);
+    background-image: url(../images/bannerasia.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -325,7 +325,22 @@ header.site-header.sticky {
         background: #00000075;
     }
 }
+.ocenia__banner.asia{
+    background-image: url(../images/oceaniabanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    object-fit: cover;
+    position: relative;
 
+    &::after {
+        position: absolute;
+        content: '';
+        inset: 0;
+        background: #00000075;
+    }
+}
 /*End gambler-banner start*/
 
 /*Start casino-information css*/
@@ -692,6 +707,7 @@ a.link__btn {
         }
     }
 }
+
 
 
 
