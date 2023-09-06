@@ -492,6 +492,7 @@
     }
     .contacts__links p{
         margin-bottom: 12px;
+        letter-spacing: -0.5px;
     }
     .contact__para p{
         font-size: 15px;
@@ -520,6 +521,9 @@
     .link__content h3 {
         font-size: 17px;
 
+    }
+    .contacts__links p {
+        letter-spacing: -1px;
     }
 
 }
