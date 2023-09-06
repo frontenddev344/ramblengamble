@@ -349,15 +349,8 @@ header.site-header {
 .casino-information.disclaimer {
     padding-bottom: 50px;
 }
-
-.linked__picture img {
-    border-radius: 20px;
-    width: 100%;
-
-    &:hover {
-        transform: translateY(-10px);
-        transition: all 0.3s;
-    }
+video::-webkit-media-controls {
+    display: none;
 }
 
 a.btn-home {
