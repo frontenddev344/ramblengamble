@@ -480,7 +480,17 @@
         padding: 10px 0 10px 0;
     }
 }
-
+@media screen and (max-width: 425px) {
+    .contact-us h4 {
+        margin-bottom: 4px;
+    }
+    .useful-links {
+        margin-top: -4px;
+    }
+    .social-icons{
+        margin-bottom: 20px;
+    }
+}
 @media screen and (max-width: 395px) {
     .casino__bannertext h2 {
         font-size: 15px;
