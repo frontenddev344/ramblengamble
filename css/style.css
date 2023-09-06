@@ -112,7 +112,6 @@ header.site-header.sticky {
   background-position: center;
   background-size: cover;
   position: relative;
-  z-index: 999;
 }
 .footer::after {
   content: "";
