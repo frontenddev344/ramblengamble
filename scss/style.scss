@@ -51,8 +51,11 @@ header.site-header {
     padding: 14px 0;
     text-transform: capitalize;
     color: #000000;
-    position: relative;
+    position: absolute;
     font-family: "Barlow";
+    z-index: 999;
+    width: 100%;
+    transition: .3s;
 }
 
 .site-header .site-nav ul li a.active {
@@ -96,12 +99,13 @@ header.site-header {
 .menu-toggle {
     display: none !important;
 }
-// header.site-header.sticky {
-//     background: #ffffff;
-//     box-shadow: 2px 5px 10px rgb(0 0 0 / 30%);
-//     animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
-//     padding: 10px 0;
-// }
+header.site-header.sticky {
+    background: #ffffff;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+    padding: 10px 0;
+    position: fixed;
+}
 
 /*header end*/
 /*footer start*/
