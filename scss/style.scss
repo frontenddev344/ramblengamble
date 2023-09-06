@@ -359,9 +359,10 @@ header.site-header {
         transition: all 0.3s;
     }
 }
-video::-webkit-media-controls{
-     display: none;
-    }
+
+video::-webkit-media-controls {
+    display: none;
+}
 
 a.btn-home {
     background: #6cc133;
