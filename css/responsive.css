@@ -229,10 +229,17 @@
   .gambler__banner {
     height: 450px;
   }
+  p.gamble__texts {
+    font-size: 18px;
+    color: #fff;
+    top: 74%;
+    max-width: 85%;
+  }
   h1.gamble__title {
     text-align: center;
-    max-width: 100%;
-    top: 63%;
+    max-width: 90%;
+    top: 57%;
+    line-height: 46px;
   }
   .north__banner {
     height: 450px;
@@ -388,6 +395,7 @@
 @media screen and (max-width: 425px) {
   h1.gamble__title {
     font-size: 32px;
+    line-height: 35px;
   }
   .contact-us h4 {
     margin-bottom: 4px;

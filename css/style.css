@@ -252,6 +252,20 @@ h1.gamble__title {
   width: 100%;
 }
 
+p.gamble__texts {
+  font-size: 25px;
+  color: #fff;
+  font-family: "Barlow";
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  max-width: 85%;
+  margin: 0 auto;
+}
+
 .north__banner {
   background-image: url(../images/northbanner.jpg);
   background-repeat: no-repeat;
