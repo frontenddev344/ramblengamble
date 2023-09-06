@@ -387,6 +387,9 @@
   .contacts__links p {
     margin-bottom: 12px;
   }
+  .contact__para p {
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 395px) {
   .casino__bannertext h2 {
