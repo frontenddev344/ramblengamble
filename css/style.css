@@ -247,6 +247,11 @@ header.site-header.sticky {
   background: rgba(0, 0, 0, 0.4588235294);
 }
 
+h1.gamble__title {
+  text-align: center;
+  width: 100%;
+}
+
 .north__banner {
   background-image: url(../images/northbanner.jpg);
   background-repeat: no-repeat;

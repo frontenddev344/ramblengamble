@@ -99,6 +99,7 @@ header.site-header {
 .menu-toggle {
     display: none !important;
 }
+
 header.site-header.sticky {
     background: #ffffff;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
@@ -273,6 +274,11 @@ header.site-header.sticky {
     }
 }
 
+h1.gamble__title {
+    text-align: center;
+    width: 100%;
+}
+
 .north__banner {
     background-image: url(../images/northbanner.jpg);
     background-repeat: no-repeat;
@@ -324,7 +330,8 @@ header.site-header.sticky {
         background: #00000075;
     }
 }
-.ocenia__banner.asia{
+
+.ocenia__banner.asia {
     background-image: url(../images/oceaniabanner.jpg);
     background-repeat: no-repeat;
     background-position: center;
@@ -340,6 +347,7 @@ header.site-header.sticky {
         background: #00000075;
     }
 }
+
 /*End gambler-banner start*/
 
 /*Start casino-information css*/
@@ -390,6 +398,7 @@ video {
     height: 100%;
     width: 100%;
 }
+
 a.btn-home {
     background: #6cc133;
     padding: 11px 20px;
@@ -715,5 +724,3 @@ a.link__btn {
 
 
 /*# sourceMappingURL=style.css.map */
-
-
