@@ -462,7 +462,7 @@ a.link__btn:hover {
 /*End linked css*/
 /*Start destination css*/
 .destination__content {
-  padding: 50px 0px;
+  padding: 0 0 50px 0;
 }
 
 .destination__content .row.igralnice {
