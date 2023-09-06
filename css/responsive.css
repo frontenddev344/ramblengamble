@@ -384,6 +384,9 @@
   .social-icons {
     margin-bottom: 20px;
   }
+  .contacts__links p {
+    margin-bottom: 12px;
+  }
 }
 @media screen and (max-width: 395px) {
   .casino__bannertext h2 {
