@@ -391,6 +391,18 @@
   .linkpart__section {
     padding: 10px 0 10px 0;
   }
+  .mobile-view-design {
+    display: block;
+  }
+  .north__banner {
+    display: none;
+  }
+  .casino-information.part {
+    display: none;
+  }
+  .destination__content {
+    display: none;
+  }
 }
 @media screen and (max-width: 425px) {
   h1.gamble__title {

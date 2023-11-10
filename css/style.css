@@ -668,5 +668,88 @@ a.link__btn:hover {
 
 /*End Terms Condition*/
 
+/*mobile-view-design*/
+.mobile-view-design {
+  padding-top: 91px;
+  padding-bottom: 28px;
+  display: none;
+}
+.mobile-view-design .beste {
+  margin: 20px 0;
+}
+.mobile-view-design .warapper {
+  background: rgba(215, 217, 219, 0);
+  padding: 20px;
+  border: 4px solid #6cc133;
+  border-radius: 6px;
+  margin: 30px 0;
+}
+.mobile-view-design .warapper .main_box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.mobile-view-design .warapper .main_box .beting_logo {
+  width: 50%;
+}
+.mobile-view-design .warapper .main_box .beting_logo img {
+  width: 100%;
+  padding: 0 15px 0 0;
+  height: 130px;
+  object-fit: contain;
+}
+.mobile-view-design .warapper .main_box .one_o {
+  width: 50%;
+}
+.mobile-view-design .warapper .main_box .one_o h6.heading_main {
+  font-size: 20px !important;
+  color: #000;
+}
+.mobile-view-design .warapper .main_box .one_o h6.heading_main .one_o p {
+  color: #000;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.mobile-view-design .start_line {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1px 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  background: #ffffff;
+  margin: 17px 0;
+}
+.mobile-view-design .start_line p.rating-text {
+  padding-bottom: 4px !important;
+  margin: 0px !important;
+  margin-top: 13px !important;
+}
+.mobile-view-design .start_line .notpad {
+  padding: 0 9px;
+}
+.mobile-view-design .start_line .notpad p {
+  padding-bottom: 0;
+}
+.mobile-view-design .start_line .main-rate-star {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.mobile-view-design .start_line .main-rate-star p.rated-star {
+  color: #fdbb4f;
+}
+.mobile-view-design .awesome {
+  background: #6cc133;
+  padding: 11px;
+  text-align: center;
+  border-radius: 6px;
+}
+.mobile-view-design .awesome a {
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
 /*# sourceMappingURL=style.css.map */
