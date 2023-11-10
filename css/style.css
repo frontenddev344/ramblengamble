@@ -676,6 +676,8 @@ a.link__btn:hover {
 }
 .mobile-view-design .beste {
   margin: 20px 0;
+  font-size: 25px;
+  text-align: center;
 }
 .mobile-view-design .warapper {
   background: rgba(215, 217, 219, 0);
