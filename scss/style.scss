@@ -278,6 +278,7 @@ h1.gamble__title {
     text-align: center;
     width: 100%;
 }
+
 p.gamble__texts {
     font-size: 25px;
     color: #fff;
@@ -469,6 +470,10 @@ a.btn-home {
 
 .row.dest {
     padding: 40px 0;
+}
+
+.desktop-version {
+    display: none;
 }
 
 .link__picture {
@@ -742,40 +747,48 @@ a.link__btn {
 /*mobile-view-design*/
 
 
-.mobile-view-design{
+.mobile-view-design {
     padding-top: 91px;
     padding-bottom: 28px;
     display: none;
+
     .beste {
         margin: 20px 0;
         font-size: 25px;
         font-weight: 600;
         text-align: center;
     }
+
     .warapper {
         background: rgba(215, 217, 219, 0);
         padding: 20px;
         border: 4px solid #6cc133;
         border-radius: 6px;
         margin: 30px 0;
+
         .main_box {
             display: flex;
             justify-content: space-between;
             width: 100%;
+
             .beting_logo {
                 width: 50%;
-                img{
+
+                img {
                     width: 100%;
                     padding: 0 15px 0 0;
                     height: 130px;
                     object-fit: contain;
                 }
             }
+
             .one_o {
                 width: 50%;
+
                 h6.heading_main {
                     font-size: 20px !important;
                     color: #000;
+
                     .one_o p {
                         color: #000;
                         font-size: 18px;
@@ -785,6 +798,7 @@ a.link__btn {
             }
         }
     }
+
     .start_line {
         display: flex;
         align-items: center;
@@ -793,33 +807,39 @@ a.link__btn {
         box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
         background: #ffffff;
         margin: 17px 0;
+
         p.rating-text {
             padding-bottom: 4px !important;
             margin: 0px !important;
             margin-top: 13px !important;
         }
+
         .notpad {
             padding: 0 9px;
-            p{
+
+            p {
                 padding-bottom: 0;
             }
         }
+
         .main-rate-star {
             display: flex;
             text-align: center;
             justify-content: center;
+
             p.rated-star {
                 color: #fdbb4f;
             }
         }
     }
 
-    .awesome{
+    .awesome {
         background: #6cc133;
         padding: 11px;
         text-align: center;
         border-radius: 6px;
-        a{
+
+        a {
             color: #fff;
             font-size: 18px;
             letter-spacing: 1px;

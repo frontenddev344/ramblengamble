@@ -428,6 +428,10 @@ a.btn-home:hover {
   padding: 40px 0;
 }
 
+.desktop-version {
+  display: none;
+}
+
 .link__picture {
   position: relative;
 }
